@@ -10,8 +10,6 @@ executable.
 editor were done by DarkSoL with the help of the **Claude** AI (Anthropic).
 Discord: **darksol41**
 
-<sup>If you’d like to support me financially, BTC address: bc1qp476rmcaapl6n6xjvg2la50cfw3kwvxe8sj0m5
-
 ---
 
 ## What this is
@@ -148,8 +146,8 @@ cumulative and safe to re-load).
 ### Getting an unpacked GAME.EXE
 
 The Switch → Conveyor patcher needs an **unpacked** `GAME.EXE` (the original
-shipped executable is UPX-compressed). This editor does **not** include or
-distribute any part of the original game — you need your own legally-owned
+shipped executable is UPX-compressed). The game itself, its `GAME.EXE` and its level files are
+**not** included — you need your own legally-owned
 copy of Sink or Swim and must unpack its `GAME.EXE` yourself. It only takes a
 minute:
 
@@ -219,6 +217,22 @@ minute:
   debugging, file format & EXE mechanics discovery, and this editor.
 - **Claude** (Anthropic) — AI assistant used throughout the reverse
   engineering, debugging, and development process.
-- **Sink or Swim** © 1993 Zeppelin Games. This is an unofficial fan tool;
-  it is not affiliated with or endorsed by the original developers or
-  publishers.
+- **Sink or Swim** © 1993 Zeppelin Games, developed by Odysseus Software.
+  This is an unofficial fan tool; it is not affiliated with or endorsed by
+  the original developers or publishers.
+
+---
+
+## Legal
+
+This is an unofficial, free, non-commercial fan tool. *Sink or Swim*, its name,
+graphics and levels belong to their respective owners.
+
+**What is in this package.** The game itself, its executable and its level files are
+**not** included. To draw maps the way the game does, the editor embeds some material
+from the original game: the tileset images for the 5 themes (`tilesets_data.js`), the
+Cargo crate sprite (`sprite1_data.js`) and the original switch↔conveyor link table
+(`switch_links_data.js`). They are used solely for display inside the editor.
+
+No warranty of any kind. Keep a backup of your original game files.
+If you are a rights holder and want something changed or removed, contact me on Discord (`darksol41`) and I will do it.
